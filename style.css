@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  font-style: italic;
+  background-image: url('bodyyy.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.upload-area {
+  border: 3px dashed #aaa;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 400px;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.upload-area img {
+  width: 80px;
+  height: 80px;
+  opacity: 0.7;
+}
+
+.upload-area p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#imageUpload {
+  display: none;
+}
+
+input[type="text"] {
+  margin-top: 20px;
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+
+h3 {
+  font-family: Georgia, serif;
+}

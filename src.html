@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<style>
+.cute-button {
+  background: linear-gradient(to right, #1D4ED8, #3B82F6); /* Pepsi blue gradient */
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 12px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 6px 12px rgba(29, 78, 216, 0.4);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.cute-button:hover {
+  background: linear-gradient(to right, #3B82F6, #1D4ED8);
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(29, 78, 216, 0.5);
+}
+
+.cute-button:active {
+  transform: scale(0.97);
+}
+</style>
+<head>
+    <link rel="stylesheet" href="style.css" />
+</head>
+    <div class="background"></div>
+
+    <div class="content">
+        <p>Hello all! This page is all about an intelligent chatbot that analyzes your images and converts them into meaningful descriptions — bridging</p>
+
+        <label for="imageUpload">
+            <div class="upload-area">
+                <img src="cam.png" alt="Camera Icon" />
+                <p>Drop an image here<br>or<br><strong>click to browse</strong></p>
+            </div>
+        </label>
+        <input type="file" id="imageUpload" accept="image/*" />
+
+        <br>
+	<h3> 
+        Chat:
+        <textarea name="command" rows="2" cols="80"></textarea>
+<class="cute-btn">
+<br><br>
+	<button type="submit" name="sub" id="sub" class="cute-button">Okay</button>
+</class>
+	</h3>  
+    </div>
+</body>
+</html>
